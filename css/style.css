@@ -130,8 +130,8 @@ footer p {float:left; text-align:center; width:580px;}
 .soc-icons a:hover img {opacity:0.7;}
 
 /**********************form**********************/
-.map {width:572px; height:400px; margin:12px 0 15px 0;}
-.map iframe {width:572px; height:400px;}
+.map {/*width:572px;*/ height:400px; margin:12px 0 15px 0;}
+/*.map iframe {width:572px; height:400px;}*/
 
 #form { margin: 12px 0 0px 0px; width:300px; }
 #form input {border:#fff 1px solid; background:#fff;font: 13px Arial, Helvetica, sans-serif;color:#000; font-style:italic; padding:5px 9px 6px 18px;outline: medium none;width: 271px; height:17px; float:left;}
