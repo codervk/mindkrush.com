@@ -15,13 +15,13 @@ a:hover {text-decoration:none;}
 .button {background:url(../images/button.png) 0 0 no-repeat; color:#000; font-size:24px; line-height:30px; display:inline-block; padding: 2px 0 5px 43px;}
 .button:hover {color:#579700;}
 
-.link {color:#ff9000; text-decoration:none; }
+.link {color:#d42828; text-decoration:none; }
 .link:hover {text-decoration:underline;}
 
-.link-2 {font-family: 'Lato', sans-serif; font-weight:300; font-style:italic; color:#ff9000; font-size:20px; line-height:25px; text-decoration:none; }
+.link-2 {font-family: 'Lato', sans-serif; font-weight:300; font-style:italic; color:#d42828; font-size:20px; line-height:25px; text-decoration:none; }
 .link-2:hover {text-decoration:underline;}
 
-.clr-1 { color:#ff9000;}
+.clr-1 { color:#d42828;}
 
 .text-1 {font-weight:normal; color:#000; font-size:60px; line-height:62px;}
 .text-1 strong {font-weight:normal; margin-top:-32px; display:block;}
@@ -29,7 +29,7 @@ a:hover {text-decoration:none;}
 .text-2 {font-weight:normal; color:#000; font-size:60px; line-height:62px;}
 
 .text-3 {font-weight:normal; color:#484848; font-size:50px; line-height:60px;}
-.text-3 span {color:#ff9000;}
+.text-3 span {color:#d42828;}
 .text-4 {font-family: 'Lato', sans-serif; font-weight:300; font-style:italic; color:#484848; font-size:30px; line-height:36px; letter-spacing:-1px;}
 
 h2 { font-size:31px; line-height:40px; color:#000; font-weight:normal; }
@@ -122,8 +122,8 @@ ul.menu li a:hover , ul.menu li.current a { color:#ff9000; }
 .box-7 a.link-2 {display:inline-block; margin-bottom:3px;}
 
 /****************************footer************************/
-footer {width:950px; overflow:hidden; margin:0 auto; padding:31px 0px 20px 0; }
-footer p {float:left; text-align:center; width:580px;}
+footer {width:950px; overflow:hidden; margin:0 auto; padding:12px 0px 10px 0; }
+footer p {float:left; text-align:left; width:580px;color:#adaaaa;}
 .soc-icons {overflow:hidden; float:right; margin:8px 73px 0 0;}
 .soc-icons span {display:inline-block; float:left;  color:#000; font-size:20px; line-height:27px; margin-right:17px;}
 .soc-icons a {display:inline-block; float:left; margin-right:19px;}
