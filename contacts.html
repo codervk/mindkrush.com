@@ -40,10 +40,10 @@ menu: contacts
             	<h2>Write to us</h2>
             	<form id="form" method="post" action="https://formspree.io/vk@mindkrush.com">
                     <fieldset>
-                      <label><input type="text" placeholder="Name" required></label>
-                      <label><input type="email"  placeholder="Email" required></label>
-                      <label><input type="phone"  placeholder="Phone" required></label>
-                      <label><textarea  placeholder="Message" required></textarea></label>
+                      <label><input type="text" name="Name" placeholder="Name" required></label>
+                      <label><input type="email"  name="Email" placeholder="Email" required></label>
+                      <label><input type="phone"  name="Phone" placeholder="Phone" required></label>
+                      <label><textarea  name="Message" placeholder="Message" required></textarea></label>
                       <div class="btns">
                        <a href="#" class="button" onClick="$('#form')[0].reset();">Clear</a>
                        <button type="submit" id="submitButton" style="display: none;"></button>
