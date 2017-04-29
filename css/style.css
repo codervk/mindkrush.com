@@ -76,22 +76,22 @@ ul.list-1 li a:hover {color:#457c00;}
 /*********************************header*************************************/
 header{ width:100%; background:url(../images/header-bg.jpg) 0 0 repeat; border-bottom:#fff 1px solid;}
 header>div+div {width:100%; background:url(../images/header-bg-shadow.png) 0 bottom repeat-x; padding-bottom:17px;}
-header>div+div>div {width:960px; margin:0 auto; }
+header>div+div>div {width:100%; max-width:960px; margin:0 auto; }
 h1 {display:inline-block; z-index:1111; margin:16px 0px 0 10px; position:relative; float:left;}
 
 nav {display:inline-block; z-index:1111; position:relative; float:right;}
 
 
 ul.menu {margin:28px 10px 0px 0px; display:inline-block;}
-ul.menu li {float:left; line-height:30px; margin:0px 0px 0px 48px;}
+ul.menu li {float:left; line-height:30px; margin:0px 0px 0px 30px;}
 ul.menu li:hover, ul.menu li.current {}
-ul.menu li a {font-size:25px; line-height:30px; color:#f2f2f2; display:inline-block; }
+ul.menu li a {font-size:25px; font-weight: 100; line-height:30px; color:#f2f2f2; display:inline-block; }
 ul.menu li a:hover , ul.menu li.current a { color:#ff9000; }
 
 /*********************************content*************************************/
 #content {width:100%;padding:0px 0px 48px 0; background:#f2f2f2;}
 
-.img-border {border:#fff 8px solid;}
+.img-border {border:#fff 5px solid;}
 
 .box-1 {overflow:hidden; padding:40px 0 34px;}
 .box-1 img {float:left; margin-top:-3px;}
@@ -139,3 +139,10 @@ footer p {float:left; text-align:left; width:580px;color:#adaaaa;}
 #form label {position:relative;overflow:hidden;display: block;min-height:35px;}
 .btns {text-align:left; width:300px; padding-top:15px;}
 .btns a {display:inline-block; margin:0 4px 0 20px;}
+
+.text-1, .text-2, h2, .text-3, .date strong, .button, .soc-icons span{
+	font-family: 'Bilbo', cursive;
+}
+ul.menu li a {
+	font-family: 'Amatic SC', cursive;
+}
