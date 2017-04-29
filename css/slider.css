@@ -32,7 +32,7 @@
 
 #slide1 {height:441px;}
 #slide1 .slider {width:960px; height:441px;}
-#slide1 .pagination { bottom:5px; right:200px; }
+#slide1 .pagination { bottom:5px; right:90px; }
 #slide1 .pagination li {margin-right:10px;}
 #slide1 .pagination li a { width:35px; height:36px;}
 #slide1 .banner {top:47px; left:630px; width:320px;}
@@ -40,7 +40,7 @@
 
 #slide2 {height:353px;}
 #slide2 .slider {width:768px; height:353px;}
-#slide2 .pagination { bottom:10px; right:350px; }
+#slide2 .pagination { bottom:10px; right:50px; }
 #slide2 .pagination li {margin-right:10px;}
 #slide2 .pagination li a { width:35px; height:36px;}
 #slide2 .banner {top:17px; left:473px; width:280px;}
