@@ -382,7 +382,10 @@
     "@hr-border": "@gray-lighter"
   },
   "css": [
-    "buttons.less"
+    "tables.less",
+    "forms.less",
+    "buttons.less",
+    "responsive-utilities.less"
   ],
   "js": [
     "alert.js",
@@ -398,5 +401,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=0085d770eb707fbe074ed7e43f57b47e"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=668c5a8bccc0d58d565e1c8c3f8d5f2c"
 }
