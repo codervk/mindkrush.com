@@ -151,9 +151,10 @@ ul.menu li a {
 .stripped .header1{background:#e84c3d;border:none;-webkit-box-shadow:0 0 60px #cd3c2e inset;-moz-box-shadow:0 0 60px #cd3c2e inset;box-shadow:0 0 60px #cd3c2e inset;color:#fff}
 
 .btn{padding:10px 12px;font-size:14px;line-height:1.42857143;min-width:160px;text-align:center;border-radius:0;text-transform:uppercase;margin:10px 0;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.btn:active,.btn:focus{outline:0;box-shadow:none}
-.btn .fa{vertical-align: middle;}
+li .fa,.btn .fa{vertical-align: middle;}
 .btn-default{background-color:#e84c3d;color:#fff!important;border-color:#cd3c2e}.btn-default.active,.btn-default:active,.btn-default:focus,.btn-default:active:focus,.btn-default:active:hover,.btn-default:hover,.open .dropdown-toggle.btn-default{color:#fff!important;background-color:#cd3c2e;border-color:#cd3c2e}.btn-default.disabled,.btn-default[disabled],fieldset[disabled] .btn-default{background-color:#cd3c2e;border-color:#cd3c2e;opacity:.7;filter:alpha(opacity=70)}
 
 .regularPrice{}
 .offerPrice{display: none;}
+.offerPrice span.discount{color: green;font-weight: bold;}
 
