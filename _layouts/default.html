@@ -27,6 +27,18 @@
    		<script type="text/javascript" src="js/html5.js"></script>
     	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-98448879-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+  
 </head>
 <body>
    <header> 
@@ -37,7 +49,7 @@
 				
 				<option value="services">Services</option>
         <option value="technologies">Technologies</option>
-				<!-- <option value="products">Products</option> -->
+				<option value="portfolio">Portfolio</option>
         <option value="about">About</option>
 				<option value="contact">Contact</option>
 			</select>
@@ -47,12 +59,12 @@
               <h1><a href="index.html"><img src="images/logo4.png" alt=""></a></h1> 
               <nav>  
                 <ul class="menu">
-        <li class="{% if page.menu == 'home' %} current {% endif %}"><a href="/">Home</a></li>
-        <li class="{% if page.menu == 'services' %} current {% endif %}"><a href="services">Services</a></li>
-        <li class="{% if page.menu == 'technologies' %} current {% endif %}"><a href="technologies">Technologies</a></li>
-        <!-- <li class="{% if page.menu == 'products' %} current {% endif %}"><a href="products">Products</a></li> -->
-        <li class="{% if page.menu == 'about' %} current {% endif %}"><a href="about">About</a></li>
-        <li class="{% if page.menu == 'contact' %} current {% endif %}"><a href="contact">Contact</a></li>
+<li class="{% if page.menu == 'home' %} current {% endif %}"><a href="/">Home</a></li>
+<li class="{% if page.menu == 'services' %} current {% endif %}"><a href="services">Services</a></li>
+<li class="{% if page.menu == 'technologies' %} current {% endif %}"><a href="technologies">Technologies</a></li>
+<li class="{% if page.menu == 'portfolio' %} current {% endif %}"><a href="portfolio">Portfolio</a></li>
+<li class="{% if page.menu == 'about' %} current {% endif %}"><a href="about">About</a></li>
+<li class="{% if page.menu == 'contact' %} current {% endif %}"><a href="contact">Contact</a></li>
                   </ul>
               </nav>
               <div class="clear"></div>
